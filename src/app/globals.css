@@ -4,8 +4,8 @@
 
 html,
 body {
-  height: 100vh;
-  overflow-y: auto;
+  /* height: 100vh; */
+  /* overflow-y: auto; */
 }
 
 /* :root {
