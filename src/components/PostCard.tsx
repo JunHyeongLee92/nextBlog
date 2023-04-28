@@ -21,7 +21,9 @@ export default function PostCard({
         />
         <div className="flex flex-col items-center p-4">
           <time className="self-end text-gray-700">{date.toString()}</time>
-          <h3 className="text-lg font-bold">{title}</h3>
+          <h3 className="w-full text-lg font-bold text-center truncate">
+            {title}
+          </h3>
           <p className="w-full text-center truncate">{description}</p>
           <span className="px-2 my-2 text-sm bg-green-100 rounded-lg">
             {category}
