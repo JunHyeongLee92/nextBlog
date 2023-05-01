@@ -2,6 +2,11 @@ import Hero from "@/components/Hero";
 
 const TITLE_CLASS = "text-2xl text-gray-800 text-bold my-2";
 
+export const metadata = {
+  title: "About Me",
+  description: "페이지 개발자 소개",
+};
+
 export default function AboutPage() {
   return (
     <>

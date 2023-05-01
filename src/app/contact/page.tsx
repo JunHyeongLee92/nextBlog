@@ -6,6 +6,11 @@ const LINKS = [
   { icon: <AiFillInstagram />, url: "https://www.instagram.com/2junehyung/" },
 ];
 
+export const metadata = {
+  title: "Contact Me",
+  description: "관리자에게 메일 보내기",
+};
+
 export default function ContactPage() {
   return (
     <section className="flex flex-col items-center">
